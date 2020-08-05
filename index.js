@@ -23,7 +23,7 @@ app.get('/api/', (_, response) => {
   });
 });
 
-// main path
+//prefix main path
 app.use('/api/transaction', routes);
 
 // dataBase connection
